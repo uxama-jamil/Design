@@ -1,0 +1,73 @@
+<div class="row">
+  <div class="col-12 dash py-3">
+    <h3>Dashboard</h3>
+  </div>
+
+</div>
+<div class="row py-2">
+  <div class="col-7">
+    <span class="current"><b >Current Task</b></span>
+  </div>
+  <div class="col-5 "><span class="show"><b>Show all</b> </span><b class="bol"> &nbsp;143</b></div>
+</div>
+
+<div class="row py-2">
+  <div class="col-9">
+   <i class="fa fa-circle cc"></i> &nbsp; <b class="bhead">Make Homepage</b>
+    <p class="bside">Lorem ipsum dolor sit</p>
+  </div>
+  <div class="col-3"><span class="noti">1</span></div>
+</div>
+
+<div class="row py-2">
+  <div class="col-9">
+   <i class="fa fa-circle cc"></i> &nbsp; <b class="bhead">Problem with fixed head</b>
+    <p class="bside">Lorem ipsum dolor sit</p>
+  </div>
+  <div class="col-3"><span class="noti">2</span></div>
+</div>
+
+<div class="row py-2">
+  <div class="col-9">
+   <i class="fa fa-circle cc"></i> &nbsp; <b class="bhead">Fix bug with</b>
+    <p class="bside">Lorem ipsum dolor sit</p>
+  </div>
+  <div class="col-3"><span class="noti">3</span></div>
+</div>
+
+<div class="row py-2">
+  <div class="col-9">
+   <i class="fa fa-circle cc"></i> &nbsp; <b class="bhead">Create UI with layout</b>
+    <p class="bside">Lorem ipsum dolor sit</p>
+  </div>
+  <div class="col-3"><span class="noti">4</span></div>
+</div>
+
+<div class="row py-2">
+  <div class="col-9">
+   <i class="fa fa-circle cc"></i> &nbsp; <b class="bhead">Develop map for site</b>
+    <p class="bside">Lorem ipsum dolor sit</p>
+  </div>
+  <div class="col-3"><span class="noti">2</span></div>
+</div>
+
+<div class="row py-2 mx-auto but  ">
+  <div class="col-2 ">
+    <span class="plus">+</span>
+  </div>
+  <div class="col-8 plus"><span class="new">Create new project</span></div>
+  <div class="col-2"><i class="fa fa-copy plus py-1 "></i></div>
+</div>
+
+<div class="pt-5 tex">
+  <p class="tsk">Advance Task Statistics</p>
+</div>
+<div id="chart">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [labels]="chartOptions.labels"
+    [responsive]="chartOptions.responsive"
+    
+  ></apx-chart>
+</div>

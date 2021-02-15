@@ -1,0 +1,49 @@
+.main{
+    background:rgba(244, 247, 255);
+    height:850px;
+    background-image: linear-gradient(to right,rgb(210, 217, 235),rgb(82, 85, 211));
+    
+    
+}
+.container{
+    border-radius: 10px;
+    
+}
+
+.first-col{
+    background: #fff;
+}
+.second-col{
+    background: #F4F7FF;
+}
+.third-col{
+    background: #fff;
+}
+.logo{
+    font-size: 30px;
+    margin-top: 10px;
+    color:blue
+    
+}
+.jk{
+    background-color: rgba(244, 247, 255);
+}
+.navi{
+    margin-top: 150px;}
+.navilogo{
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.sign{
+    color:black;
+    opacity: 0.2;
+    font-size: 25px;
+}
+.navilogo:hover{
+    background-color: rgba(244, 247, 255);
+}
